@@ -1,7 +1,8 @@
 import React from "react";
 
 import { CTA, Brand, Navbar } from "./Components";
-import { Footer, Blog, Possiblity, Features, GPT, Header } from "./Containers";
+import { Blog, Possiblity, Features, GPT, Header } from "./Containers";
+import { End } from "./Containers/footer/End";
 import "./app.css";
 
 export const App = () => {
@@ -17,7 +18,7 @@ export const App = () => {
       <Possiblity />
       <CTA />
       <Blog />
-      <Footer />
+      <End />
     </div>
   );
 };
